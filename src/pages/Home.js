@@ -4,7 +4,6 @@ import TextTransition, { presets } from "react-text-transition";
 const Titles = [
   "Full-Stack Developer",
   "Software Developer",
-  ".NET Developer",
   "Computer Programmer",
 ];
 

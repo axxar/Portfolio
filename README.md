@@ -31,5 +31,5 @@ The app can be deployed using platforms like Netlify, Vercel, or GitHub Pages. S
 ## Author
 
 - **Akshar Patel**
-- Website: [www.johndoe.com](http://aksharap.com)
-- LinkedIn: [John Doe on LinkedIn](https://www.linkedin.com/in/akshar-ap/)
+- Website: [aksharap.com](http://aksharap.com)
+- LinkedIn: [Akshar on LinkedIn](https://www.linkedin.com/in/akshar-ap/)

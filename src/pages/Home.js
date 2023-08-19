@@ -1,9 +1,9 @@
 import React from "react";
 import TextTransition, { presets } from "react-text-transition";
+import { Link } from "react-router-dom";
 
 const Titles = [
   "Full-Stack Developer",
-  "Software Developer",
   "Computer Programmer",
 ];
 
@@ -13,7 +13,7 @@ const Home = () => {
   React.useEffect(() => {
     const intervalId = setInterval(
       () => setIndex((index) => index + 1),
-      4000 // every 3 seconds
+      1750 // every 1.75 seconds
     );
     return () => clearTimeout(intervalId);
   }, []);
@@ -34,18 +34,18 @@ const Home = () => {
             </h1>
           </div>
           <div className="mt-10">
-            <a
-              href="/portfolio"
+            <Link
+              to="/portfolio"
               className="bg-blue-600 text-gray-300 px-6 py-3 rounded-full hover:bg-green-400 hover:text-gray-900 text-lg transition duration-300 mx-3 mt-10"
             >
               Portfolio
-            </a>
-            <a
-              href="/contact"
+            </Link>
+            <Link
+              to="/contact"
               className="bg-blue-600 text-gray-300 px-6 py-3 rounded-full hover:bg-green-400 hover:text-gray-900 text-lg transition duration-300 mx-3 mt-5"
             >
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       </div>

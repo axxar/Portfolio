@@ -26,7 +26,7 @@ const Home = () => {
             <h1 className="text-4xl lg:text-7xl text-blue-600 font-bold mb-4">
               Hi, I'm <span className="pf-marlet-display font-semibold">Akshar</span>!
             </h1>
-            <h1 className="text-lg lg:text-4xl text-gray-300 mb-4">
+            <h1 className="text-lg lg:text-4xl text-gray-700 dark:text-gray-300 mb-4">
               I'm a{" "}
               <TextTransition springConfig={presets.gentle} inline>
                 {Titles[index % Titles.length]}
@@ -36,13 +36,13 @@ const Home = () => {
           <div className="mt-10">
             <Link
               to="/portfolio"
-              className="bg-blue-600 text-gray-300 px-3 py-2 sm:px-6 sm:py-3 rounded-full hover:bg-green-400 hover:text-gray-900 text-sm sm:text-lg transition duration-300 mx-3 mt-10"
+              className="bg-blue-600 text-gray-100 hover:bg-green-400 hover:text-gray-900 px-3 py-2 sm:px-6 sm:py-3 rounded-full  text-sm sm:text-lg transition duration-300 mx-3 mt-10"
             >
               Portfolio
             </Link>
             <Link
               to="/contact"
-              className="bg-blue-600 text-gray-300 px-3 py-2 sm:px-6 sm:py-3 rounded-full hover:bg-green-400 hover:text-gray-900 text-sm sm:text-lg transition duration-300 mx-3 mt-5"
+              className="bg-blue-600 text-gray-100 hover:bg-green-400 hover:text-gray-900 px-3 py-2 sm:px-6 sm:py-3 rounded-full  text-sm sm:text-lg transition duration-300 mx-3 mt-5"
             >
               Contact
             </Link>
